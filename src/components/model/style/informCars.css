@@ -1,0 +1,17 @@
+.informCars{
+	padding-top: 200px;
+}
+
+.informCars table{
+	margin: auto;
+	border: 2px solid #3BA3D0;
+	border-radius: 10px
+}
+
+.informCars td{
+	padding: 5px 20px 5px 20px;
+	text-align: left;
+	border: 2px solid #3BA3D0;
+	border-collapse: separate ;
+
+}

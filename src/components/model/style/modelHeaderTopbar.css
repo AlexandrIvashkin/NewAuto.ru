@@ -1,0 +1,92 @@
+.model-header-img {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: -60px;
+}
+
+.model-header-img div{
+	float: left;
+	width: 250px;
+	height: 166px;
+	min-height: 130px;
+}
+
+.model-header-img1{
+	background-image: url(/img/modelIndexImg/bmw3.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.model-header-img2{
+	background-image: url(/img/modelIndexImg/nissan3.jpg);
+	background-size: cover;
+}
+
+.model-header-img3{
+	background-image: url(/img/modelIndexImg/lambo3.jpg);
+	background-size: cover;
+}
+
+.model-header-img4{
+	background-image: url(/img/modelIndexImg/mer3.jpg);
+	background-size: cover;
+}
+
+.model-header-img div{
+	background-position: top;
+	transition: 1s;
+}
+
+.model-header-img div:hover {
+	background-position: bottom;
+}
+
+.model-header-img h1{
+	display: block;
+	height:100%;
+	opacity: 0;
+	transition: 1s;
+	margin-top: 10px;
+	color: grey;
+	margin-bottom: 0;
+}
+
+.model-header-img h1:hover {
+	opacity: 1;
+}
+
+.list-Marks-Ul{
+	display: block;
+	background-color: #4363CC;
+	border: 2px solid black;
+	border-radius: 0 0 40px 40px;
+	position: absolute;
+	display: none;
+}
+.list-Marks-Ul ul{
+	padding:5px;
+	margin: 0;
+	text-align: left;
+}
+
+.list-Marks-Ul li{
+	padding-top: 5px;
+	list-style-type: none;
+	padding-left: 10px;
+	border-bottom: 1px solid #96A8E1;
+}
+
+.model-header-img div:hover > div{
+	display: block;
+}
+
+.list-Marks-Ul li>a{
+	text-decoration: none;
+	color: white;
+}
+
+.list-Marks-Ul li > a:hover {
+	text-decoration: none;
+	color: #B3C7F0;
+}

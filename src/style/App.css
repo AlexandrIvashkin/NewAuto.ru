@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-nav{
+  font-size: 15pt;
+}
+
+.App-nav a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.App-nav a:hover{
+  color:blue;
+}
+
+.App-content{
+  margin-top: 60px;
+  color: black;
+}

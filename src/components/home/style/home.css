@@ -1,0 +1,75 @@
+.homeImg{
+	max-width: 1200px;
+	margin: auto;
+	height:200px;
+	display: inline-block;
+	margin-top: -40px;
+}
+
+.homeImg img{
+	max-width: 230px;
+	width:25%;
+	padding-right: 10px;
+	filter: grayscale(100%);
+	transition: all 1s;
+}
+
+.homeImg img:hover{
+	filter: none;
+}
+
+.homeImgCars{
+	margin-top: 10px;
+	width:100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.homeImgCars img{
+	max-width: 25%;
+	height:150px;
+	padding:0px;
+	margin: 0px;
+}
+
+.contentBlock{
+	background-color: rgba(0,0,0,0.7);
+	max-width: 1200px;
+	clear: both;
+}
+
+.contentText{
+	color: white;
+	padding: 10px;
+}
+
+.contentText p{
+	text-align: justify;
+}
+
+.contentText h1:first-letter, p:first-letter{
+	font-size: 150%;
+}
+
+.imgCar{
+	max-width: 1000px;
+	margin: auto;
+	width:100%;
+}
+
+.imgCar div{
+	float: left;
+}
+
+.imgCar img{
+	width: 100%;
+	max-width:250px;
+	filter: grayscale(100%);
+	transition: all 1s;
+}
+
+.imgCar img:hover {
+	width: 100%;
+	max-width:250px;
+	filter: none;
+}
